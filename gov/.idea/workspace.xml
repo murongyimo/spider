@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b7943b5-0794-474d-98e0-c1f2a84697ac" name="Default Changelist" comment="" />
+    <list default="true" id="3b7943b5-0794-474d-98e0-c1f2a84697ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../heBei_gov/.idea/heBei_gov.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/goverment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goverment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,25 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goverment/items.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goverment/spiders/gov.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="198">
+              <caret line="111" column="117" selection-start-line="111" selection-start-column="104" selection-end-line="111" selection-end-column="117" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goverment/spiders/gov.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goverment/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="47" column="63" lean-forward="true" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-                <element signature="e#2971#3467#0" />
-                <element signature="e#2824#4952#0" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -36,8 +40,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goverment/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="798">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goverment/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="e#339#2001#0" />
+                <element signature="e#2053#3696#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goverment/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+            <state relative-caret-position="1843">
+              <caret line="97" selection-start-line="97" selection-end-line="100" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -61,6 +78,9 @@
       <find>delay</find>
       <find>DOWNLOAD_DELAY</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,6 +100,7 @@
     <option name="width" value="1939" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -105,19 +126,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="goverment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goverment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goverment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goverment" type="462c0819:PsiDirectoryNode" />
-              <item name="goverment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goverment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goverment" type="462c0819:PsiDirectoryNode" />
-              <item name="goverment" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="gov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gov" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,8 +136,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../others/goverment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -165,17 +176,18 @@
       <workItem from="1557996146346" duration="3156000" />
       <workItem from="1558032906328" duration="1353000" />
       <workItem from="1558063249493" duration="2948000" />
+      <workItem from="1558401498035" duration="10984000" />
+      <workItem from="1558417909200" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56275000" />
+    <option name="totallyTimeSpent" value="68016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="-6" width="1814" height="1086" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1905031" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19373219" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -189,7 +201,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -207,46 +219,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../新建文本文档.py" />
     <entry file="file://$PROJECT_DIR$/../proxies.py" />
-    <entry file="file://$PROJECT_DIR$/goverment/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/goverment/spiders/gov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2443">
-          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="111" column="117" selection-start-line="111" selection-start-column="104" selection-end-line="111" selection-end-column="117" />
           <folding>
-            <element signature="e#169#195#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goverment/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="437">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goverment/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="798">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goverment/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#339#2001#0" />
+            <element signature="e#2053#3696#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goverment/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goverment/spiders/gov.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="47" column="63" lean-forward="true" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <element signature="e#2971#3467#0" />
-            <element signature="e#2824#4952#0" />
-          </folding>
+        <state relative-caret-position="1843">
+          <caret line="97" selection-start-line="97" selection-end-line="100" selection-end-column="26" />
         </state>
       </provider>
     </entry>
