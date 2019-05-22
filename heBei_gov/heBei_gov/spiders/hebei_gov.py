@@ -2,10 +2,13 @@
 import scrapy
 from heBei_gov.items import HebeiGovItem
 import datetime
+import re
+
 gw_base_path = "hebei_text/"
+# gw_base_path = "/bhome/crawl/gov_data_hebei/txt_file/"
 
 class HebeiGovSpider(scrapy.Spider):
-    name = 'hebei_gov'
+    name = 'hebei'
     allowed_domains = ['hebei.gov.cn']
     start_urls = ['http://info.hebei.gov.cn/eportal/ui?pageId=6817578']
 
@@ -46,10 +49,10 @@ class HebeiGovSpider(scrapy.Spider):
         # item['index_num']
         item['issue_agency'] = response.css('.xxgk_bmxl tr:nth-child(1)>td:nth-child(4)::text').extract_first()
         item['issue_number'] = response.css('.xxgk_bmxl tr:nth-child(2)>td:nth-child(2)::text').extract_first()
-        # item['gw_id'] ='_'.join(
-        #     response.css('.xxgk_bmxl tr:nth-child(2)>td:nth-child(2)::text').re('(.*)[\[〔](.*)[\]〕](.*)号')
-        # )
-        item['gw_id'] =item['issue_number']
+
+        match_str = re.match(r".*articleKey=(.*)&columnId=(.*)",response.url)
+        item['gw_id'] = match_str.group(1)+match_str.group(2)
+
         item['prescription'] = 1
         # item['written_date'] = datetime.datetime.strptime( )
         item['publish_date'] = datetime.datetime.strptime(

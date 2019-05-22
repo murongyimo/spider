@@ -8,7 +8,7 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
+import datetime
 BOT_NAME = 'heBei_gov'
 
 SPIDER_MODULES = ['heBei_gov.spiders']
@@ -22,7 +22,7 @@ NEWSPIDER_MODULE = 'heBei_gov.spiders'
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 1
+CONCURRENT_REQUESTS = 2
 RANDOMIZE_DOWNLOAD_DELAY=False
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -90,7 +90,7 @@ HTTPCACHE_DIR = 'httpcache'
 HTTPCACHE_IGNORE_HTTP_CODES = []
 HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-#LOG_LEVEL = 'DEBUG'
-#log_time = datetime.datetime.now()
-#log_file_path = "log/gw_{}_{}_{}_{}.log".format(log_time.month,log_time.day,log_time.hour,log_time.minute)
-#LOG_FILE = log_file_path
+LOG_LEVEL = 'INFO'
+log_time = datetime.datetime.now()
+log_file_path = "log/gw_{}_{}_{}_{}.log".format(log_time.month,log_time.day,log_time.hour,log_time.minute)
+LOG_FILE = log_file_path
